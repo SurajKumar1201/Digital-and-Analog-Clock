@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: url(../Assets/bg.jpg);
+    background-size: cover;
+    
+    
+}
+h1{
+    letter-spacing: 50px;
+    font-size: 50px;
+    color:rgb(128, 6, 0);
+    text-shadow: 2px 5px 3px teal;;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock #hour,
+#minute,
+#second {
+    margin: 10px;
+    border: 10px solid rgb(115, 25, 25);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    
+    position: relative;
+}
+
+#ampm {
+    margin-left: px;
+}
+
+.s-wrapper,.h-wrapper,.m-wrapper {
+    position: absolute;
+    /* border: 1px solid black; */
+    align-items: center;
+    /* background-color: rgb(164, 154, 154); */
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    top: 0.1px;
+   
+}
+
+ /* {
+    height: 100px;
+    width: 4px;
+    background-color: rgb(135, 92, 132);
+    position: absolute;
+    top: 0.5px;
+    left: 100px;
+    opacity: 0.5;
+} */
+
+.second-hand,.hour-hand,
+.minute-hand {
+    height: 100px;
+    width: 4px;
+    background-color: #000000;
+    position: relative;
+    left: 100px;
+    opacity: 0.5;
+}
+
+
+
+.in{
+    
+    height: 90px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    justify-content: space-between;
+    align-items: center;
+    left: 50px;
+    text-shadow: 2px 2px 5px rgb(154, 40, 40);
+    
+background: linear-gradient(180deg, #FFFFFF 0%, rgb(67, 180, 180) 50%, rgb(128, 39, 54) 100%);
+
+   
+
+}
+#numbers1,#numbers2,#numbers3{
+    font-size: 50px ;
+    border: 10px solid blacks;
+}
